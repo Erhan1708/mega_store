@@ -1,0 +1,50 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.body1{
+   width: 100%;
+   background-color: rgb(77, 86, 85);
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.authorization{
+   background-color: white;
+   border-radius: 6px;
+   width: 450px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+.authorization_h1{
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+.authorization_numerTel{
+   width: 100%;
+   padding: 15px;
+}
+.authorization_numerTel input{
+   width: 100%;
+   height: 40px;
+   border: 2px solid black;
+   border-radius: 5px;
+   font-size: 17px;
+   margin:4px 0 25px;
+   padding-left: 15px;
+}
+ button{
+   width: 300px;
+   height:38px;
+   background-color: #232529;
+   border: 0;
+   border-radius: 4px;
+   color: white;
+   cursor:pointer;
+}
