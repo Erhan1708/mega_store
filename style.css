@@ -12,7 +12,7 @@
    justify-content: center;
    align-items: center;
 }
-.authorization{
+.container{
    background-color: white;
    border-radius: 6px;
    width: 450px;
@@ -38,6 +38,7 @@
    font-size: 17px;
    margin:4px 0 25px;
    padding-left: 15px;
+   background: transparent;
 }
  button{
    width: 300px;
@@ -47,4 +48,30 @@
    border-radius: 4px;
    color: white;
    cursor:pointer;
+}
+/* password */
+.password_input{
+   margin: 25px;
+}
+.password_input input{
+   width: 40px;
+   height: 40px;
+   border-radius: 6px;
+   border: 2px solid #DADADA;
+   outline:none;
+   font-size: 30px;
+   text-align: center;
+   background: transparent;
+}
+.password{
+   text-align: center;
+}
+.password h2{
+   font-size: 20px;
+}
+.password p{
+   width: 250px;
+   margin: 0 auto;
+   padding: 6px;
+   color: #A9A9A9;
 }
