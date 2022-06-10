@@ -115,6 +115,7 @@ button {
    background: transparent;
    margin: 3px 0;
    height: 35px;
+   color:rgb(135 130 123);
 }
 
 .full_name input {
@@ -140,4 +141,20 @@ select{
 }
 .place1{
    width: 339px;
+}
+/* income data */
+.organization{
+   width: 339px;
+}
+.job_title{
+   width: 167px;
+}
+.wage{
+   width: 253px;
+}
+.credit input, select{
+   width: 167px;
+}
+.receiving_point{
+   width: 100%;
 }
