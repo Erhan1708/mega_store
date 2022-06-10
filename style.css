@@ -158,3 +158,13 @@ select{
 .receiving_point{
    width: 100%;
 }
+/* request */
+.request{
+   text-align: center;
+}
+.request h2{
+   font-size: 20px;
+}
+.request1 img{
+   margin: 15px 0;
+}
