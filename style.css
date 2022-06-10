@@ -1,9 +1,10 @@
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
-.body1{
+
+.body1 {
    width: 100%;
    background-color: rgb(77, 86, 85);
    height: 100vh;
@@ -12,7 +13,8 @@
    justify-content: center;
    align-items: center;
 }
-.container{
+
+.container {
    background-color: white;
    border-radius: 6px;
    width: 450px;
@@ -22,56 +24,120 @@
    align-items: center;
    padding: 20px;
 }
-.authorization_h1{
+
+.authorization_h1 {
    margin-bottom: 20px;
    font-size: 25px;
 }
-.authorization_numerTel{
+
+.authorization_numerTel {
    width: 100%;
    padding: 15px;
 }
-.authorization_numerTel input{
+
+.authorization_numerTel input {
    width: 100%;
    height: 40px;
    border: 2px solid black;
    border-radius: 5px;
    font-size: 17px;
-   margin:4px 0 25px;
+   margin: 4px 0 25px;
    padding-left: 15px;
    background: transparent;
 }
- button{
+
+button {
    width: 300px;
-   height:38px;
+   height: 38px;
    background-color: #232529;
    border: 0;
    border-radius: 4px;
    color: white;
-   cursor:pointer;
+   cursor: pointer;
 }
+
 /* password */
-.password_input{
+.password_input {
    margin: 25px;
 }
-.password_input input{
+
+.password_input input {
    width: 40px;
    height: 40px;
    border-radius: 6px;
    border: 2px solid #DADADA;
-   outline:none;
+   outline: none;
    font-size: 30px;
    text-align: center;
    background: transparent;
 }
-.password{
+
+.password {
    text-align: center;
 }
-.password h2{
+
+.password h2 {
    font-size: 20px;
 }
-.password p{
+
+.password p {
    width: 250px;
    margin: 0 auto;
    padding: 6px;
    color: #A9A9A9;
+}
+
+/* questionnaire */
+.questionnaire {
+   background-color: white;
+   border-radius: 6px;
+   width: 550px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 20px 20px 0px 20px;
+}
+
+.questionnaire h2 {
+   font-size: 20px;
+}
+
+.questionnaire p {
+   margin: 6px 0;
+}
+
+.questionnaire input,select{
+   border-radius: 6px;
+   border: 2px solid #DADADA;
+   outline: none;
+   font-size: 14px;
+   padding-left: 6px;
+   background: transparent;
+   margin: 3px 0;
+   height: 35px;
+}
+
+.full_name input {
+   width: 167px;
+}
+
+.pasport .date {
+   width: 167px;
+}
+
+.pasport .place {
+   width: 339px;
+}
+
+.questionnaire_btn {
+   margin: 15px auto;
+}
+.pasport1 input {
+   width: 167px;
+}
+select{
+   width: 167px;
+}
+.place1{
+   width: 339px;
 }
