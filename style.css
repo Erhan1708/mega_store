@@ -71,7 +71,11 @@ button{
   margin: 15px;
 }
 .questionnaire h2{
-   font-size: 22px;
+   font-size: 21.5px;
+   margin-bottom: 10px;
+}
+.paragraf{
+   margin: 5px 0 10px;
 }
 .questionnaire input , select{
    width: 100%;
