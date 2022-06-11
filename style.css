@@ -38,3 +38,30 @@ button{
    font-size: 16px;
    cursor: pointer;
 }
+/* password */
+.password{
+   text-align: center;
+   
+}
+.password p{
+   width: 300px;
+   margin: 0 auto;
+   color: #A9A9A9;
+}
+.password h2{
+   font-size: 19px;
+   margin-bottom: 5px;
+}
+.password_input{
+   text-align: center;
+   margin: 15px 0 25px;
+}
+.password_input input{
+   width: 40px;
+   height: 40px;
+   background: transparent;
+   border-radius: 5px;
+   border: 1px solid black;
+   text-align: center;
+   font-size: 30px;
+}
