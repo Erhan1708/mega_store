@@ -87,3 +87,10 @@ button{
    border: 1px solid black;
    outline: none;
 }
+/* request */
+.request{
+   text-align: center;
+}
+.request img{
+   margin: 15px 0;
+}
