@@ -170,3 +170,10 @@ select{
 .request1 img{
    margin: 15px 0;
 }
+.error{
+   border: 2px solid rgb(255, 5, 38) !important;
+   color: rgb(255, 5, 38) !important;
+}
+.error::placeholder{
+   color: rgb(255, 5, 38) !important;
+}
