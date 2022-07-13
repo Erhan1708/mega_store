@@ -10,38 +10,41 @@
 </head>
 
 <body>
-   <div class="body1">
+   <form id="form1" action="javascript:void(0)">
+      <div class="body1">
          <div class="questionnaire">
             <h2>Анкета для корпоративных клиентов</h2>
             <p>Личные данные</p>
             <div class="full_name">
-               <input type="text" placeholder="Фамилия">
-               <input type="text" placeholder="Имя">
-               <input type="text" placeholder="Отчество ">
+               <input type="text" name="surname" placeholder="Фамилия">
+               <input type="text" name="name" placeholder="Имя">
+               <input type="text" name="patronymic" placeholder="Отчество ">
             </div>
             <p>Паспортные данные</p>
             <div>
                <div class="pasport">
-                  <input class="date" type="date" placeholder="Дата рождения">
-                  <input class="place" type="text" placeholder="Место проживания по прописке">
+                  <input class="date" type="date" name="date_of_birth" placeholder="Дата рождения">
+                  <input class="place" type="text" name="registered_place_of_residence" placeholder="Место проживания по прописке">
                </div>
                <div class="pasport1">
-                  <input type="text" placeholder="Серийный номер AN/ID">
-                  <input type="text" placeholder="ИНН">
-                  <input type="date" placeholder="Дата получения">
-                  <input type="text" placeholder="Контактный номер">
-                  <input type="text" placeholder="Электронный адрес">
-                  <select  name="" id="">
-                     <option value="">Наименование банка</option>
-                     <option value="">Бакай Банк</option>
-                     <option value="">Дос Кредо Банк</option>
+                  <input type="text" name="serial_number_AN/AD" placeholder="Серийный номер AN/ID">
+                  <input type="text" name="inn" placeholder="ИНН">
+                  <input type="date" name="date_received" placeholder="Дата получения">
+                  <input type="text" name="contact number" placeholder="Контактный номер">
+                  <input type="text" name="email" placeholder="Электронный адрес">
+                  <select id="bank" name="bank">
+                     <option>Наименование банка</option>
+                     <option value="Бакай Банк">Бакай Банк</option>
+                     <option value="Дос Кредо Банк">Дос Кредо Банк</option>
                   </select>
                </div>
-               <input class="place1" type="text" placeholder="Фактическое место проживания">
+               <input class="place1" type="text" name="actual_place_of_residence" placeholder="Фактическое место проживания">
             </div>
-            <a class="questionnaire_btn" href="./income_data.html"><button>Далле</button></a>
+            <button type="submit">Далле</button>
          </div>
-   </div>
+      </div>
+   </form>
+   <script src="./quesstionnare.js"></script>
 </body>
 
 </html>

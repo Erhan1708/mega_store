@@ -10,64 +10,73 @@
 </head>
 
 <body>
-   <div class="body1">
+   <form id="form2" action="javascript:void(0)">
+      <div class="body1">
          <div class="questionnaire">
             <h2>Данные о ваших доходах</h2>
             <div class="income_data">
-               <input class="organization" type="text" placeholder="Наименование организации">
-               <input class="job_title" type="text" placeholder="Должность">
-               <input class="wage" type="text" placeholder="Заработная плата в  месяц">
-               <input class="wage" type="text" placeholder="Заработная Плата  за посл.  3 месяца">
+               <input class="organization" type="text" name="name_of_company" placeholder="Наименование организации">
+               <input class="job_title" type="text" name="job_title" placeholder="Должность">
+               <input class="wage" type="text" name="salary_per_month" placeholder="Заработная плата в  месяц">
+               <input class="wage" type="text" name="salary_for_last_3_months" placeholder="Заработная Плата  за посл.  3 месяца">
             </div>
             <p>Сведения о кредите</p>
-            <input  class="receiving_point" type="text" placeholder="Покупка телефона ( наименование товара)">
+            <input  class="receiving_point" type="text" name="model" placeholder="Покупка телефона ( наименование товара)">
             <div class="credit">
-               <input type="text" placeholder="Стоимость товара">
-               <input type="text" placeholder="Количество товара">
-               <input type="text" placeholder="Итого сумма кредита">
-               <select name="" id="">
-                  <option value="">Вид кредита </option>
-                  <option value="">Кредит </option>
-                  <option value="">Рассрочка</option>
+               <input type="text" name="cost_of_goods" placeholder="Стоимость товара">
+               <input type="text" name="quantity_of_goods" placeholder="Количество товара">
+               <input type="text" name="total" placeholder="Итого сумма кредита">
+               <select name="view" id="view">
+                  <option >Вид кредита </option>
+                  <option value="Кредит">Кредит </option>
+                  <option value="Рассрочка">Рассрочка</option>
                </select>
-               <select name="" id="">
-                  <option value="">Срок кредита ( мес)</option>
-                  <option value="">3 месяца</option>
-                  <option value="">6 месяцев</option>
-                  <option value="">9 месяцев</option>
-                  <option value="">12 месяцев</option>
+               <select name="term">
+                  <option >Срок кредита ( мес)</option>
+                  <option value="3 месяца">3 месяца</option>
+                  <option value="6 месяцев">6 месяцев</option>
+                  <option value="9 месяцев">9 месяцев</option>
+                  <option value="12 месяцев">12 месяцев</option>
                </select>
             </div>
-            <select class="receiving_point" name="" id="">
-               <option value="">Точка получения товара</option>
-               <option value="">
-                  ТЦ "Азия Молл"
+            <select class="receiving_point" name="pick-up_point" id="pick-up_point">
+               <option>Точка получения товара</option>
+               <option value=" ТЦ «Азия Молл»
+               пр. Айтматова, 3, ТЦ «Asia Mall», этаж 0">
+                  ТЦ «Азия Молл»
                пр. Айтматова, 3, ТЦ «Asia Mall», этаж 0
             </option>
-               <option value="">
+               <option value=" ТЦ ГУМ «Чынар»
+               пр.Чуй 92, ТРК ГУМ «Чынар», этаж -1 , бутик M9 (северная сторона)">
                   ТЦ ГУМ "Чынар"
                пр.Чуй 92, ТРК ГУМ «Чынар», этаж -1 , бутик M9 (северная сторона)
             </option>
-               <option value="">
+               <option value="ТЦ «Beta Stores - 2»
+               ул. Юнусалиева 177/2,торговый центр «Beta Stores - 2»">
                   ТЦ «Beta Stores - 2»
                ул. Юнусалиева 177/2,торговый центр «Beta Stores - 2»
             </option>
-               <option value="">
+               <option value="ТЦ Vefa Center
+               ул. Горького 27/1,«Vefa Center»,1 этаж. Бутик № 20">
                   ТЦ Vefa Center
-               ул. Горького 27/1,"Vefa Center",1 этаж. Бутик № 20
+               ул. Горького 27/1,«Vefa Center»,1 этаж. Бутик № 20
             </option>
-               <option value="">
+               <option value="ТЦ «Беш-Сары Сити»
+                  Бейшеналиева 42А, ТЦ «Беш-Сары Сити»">
                   ТЦ «Беш-Сары Сити»
                   Бейшеналиева 42А, ТЦ «Беш-Сары Сити»
                </option>
-               <option value="">
+               <option value=" ТРЦ «Аламедин Гранд»
+               пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж, Бутик №1 (вход с ул. Алма-Атинская)">
                   ТРЦ «Аламедин Гранд»
                пр. Жибек Жолу, 150 ТРЦ «Аламедин Гранд», 1 этаж, Бутик №1 (вход с ул. Алма-Атинская)
             </option>
             </select>
-            <a class="questionnaire_btn" href="./request.html"><button>Далле</button></a>
+            <button type="submit">Далле</button>
          </div>
-   </div>
+      </div>
+   </form>
+   <script src="./income_data.js"></script>
 </body>
 
 </html>
