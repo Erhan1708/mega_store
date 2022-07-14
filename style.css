@@ -172,8 +172,4 @@ select{
 }
 .error{
    border: 2px solid rgb(255, 5, 38) !important;
-   color: rgb(255, 5, 38) !important;
-}
-.error::placeholder{
-   color: rgb(255, 5, 38) !important;
 }
